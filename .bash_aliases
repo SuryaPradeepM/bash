@@ -29,7 +29,11 @@ alias clean='sudo apt autoremove && sudo apt clean && sudo apt autoclean'
 alias conup='conda update --all;conda clean --all'
 alias ipy='ipython'
 alias bp='bpython'
+
 #alias whou='who | cut -d' ' -f1 | sort | uniq'
+
+# pop
+alias data='cd /media/kumar/data'
 
 # Git
 alias g='git'
