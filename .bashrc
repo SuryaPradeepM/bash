@@ -140,5 +140,5 @@ npm set prefix ~/.npm
 PATH="$HOME/.npm/bin:$PATH"
 PATH="./node_modules/.bin:$PATH"
 
-export PATH=/home/kumar/apps/bash:$PATH
+export PATH=/home/kumar/apps/scripts:$PATH
 export PATH=/home/kumar/apps:$PATH

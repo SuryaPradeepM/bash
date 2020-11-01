@@ -1,1028 +1,3 @@
-update
-clear
-sudo apt update
-apt list --upgradable
-clear
-sudo apt upgrade
-sudo apt dist-upgrade
-sudo ap-get dist-upgrade
-sudo apt-get dist-upgrade
-#sudo apt autreomove
-clear
-exit
-$sudo apt dist-upgrade
-clear
-exit
-htop
-sudo apt install htop
-htop
-clear
-exit
-sudo apt update
-clear
-exit
-sudo apt install apt-transport-https curl
-curl -s https://brave-browser-apt-beta.s3.brave.com/brave-core-nightly.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-prerelease.gpg add -
-echo "deb [arch=amd64] https://brave-browser-apt-beta.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-beta.list
-sudo apt update
-sudo apt install brave-browser-beta
-ls
-sudo dpkg -i wps-office_11.1.0.9662.XA_amd64.deb; sudo apt install -f;
-clear
-sudo apt update && sudo apt upgrade
-clear
-ls
-la
-cat .sudo_as_admin_successful 
-cat .pam_environment 
-cat .bash_logout 
-clear
-sudo apt install -y wget apt-transport-https
-sudo wget -O /usr/share/keyrings/riot-im-archive-keyring.gpg https://packages.riot.im/debian/riot-im-archive-keyring.gpg
-echo "deb [signed-by=/usr/share/keyrings/riot-im-archive-keyring.gpg] https://packages.riot.im/debian/ default main" | sudo tee /etc/apt/sources.list.d/riot-im.list
-sudo apt update
-sudo apt install element-desktop
-apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
-sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
-cd Downloads/;wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-clear
-ls
-sha256sum Anaconda3-2020.07-Linux-x86_64.sh 
-ls
-#bash Anaconda3-2020.07-Linux-x86_64.sh 
-cearl
-clear
-ls
-cd ..
-ls
-sha256sum Downloads/
-htop
-sudo tee /etc/apt/sources.list.d/pritunl.list << EOF
-deb https://repo.pritunl.com/stable/apt focal main
-EOF
-
-uname
-uname -a
-lsb_release
-lsb_release -a
-clear
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com --recv 7568D9BB55FF9E5287D586017AE645C0CF8E292A
-sudo apt-get update
-sudo apt-get install pritunl-client-electron
-cd Downloads/
-sudo dpkg -i google-chrome-stable_current_amd64.deb; sudo apt install -f;
-clear
-ls
-bash Anaconda3-2020.07-Linux-x86_64.sh
-source ~/.bashrc
-clear
-ls
-conda list
-clear
-ls
-cpv * /media/kumar/LaCie\ Drive/bak/Programs/~/
-cp * /media/kumar/LaCie\ Drive/bak/Programs/~/
-ls
-clear
-conda update --all
-sudo apt install xbindkeys x11-utils xdotool
-clewar
-clear
-xev | grep button
-xev | sed -ne '/^KeyPress/,/^$/p'
-xbindkeys -d > ~/.xbindkeysrc
-sudo nano ~/.xbindkeysrc 
-xbindkeys
-#AAAAAAA
-sudo nano ~/.xbindkeysrc
-xbindkyes
-xbindkeys
-#AAAAAA
-xev | grep button
-sudo nano ~/.xbindkeysrc
-xbindkeys
-#AAAAAAAA
-clear
-sudo nano ~/.xbindkeysrc
-xbindkeys
-#AAAAAAAAAAAAAAAAA
-sudo nano ~/.xbindkeysrc
-xbindkeys --poll-rc
-killall xbindkeys
-xbindkeys
-sudo nano ~/.xbindkeysrc
-killall xbindkeys
-xbindkeys --poll-rc
-sudo apt install gdebi
-sudo apt udpate # ;sudo apt install ./zoom_amd64.deb
-sudo apt udpate
-sudo apt-get update
-sudo apt-get upgrade
-clear
-ls
-sudo apt install ./zoom_amd64.deb
-sudo apt update && sudo apt upgrade
-clear
-ls
-dpkg -i mailspring-1.7.8-amd64.deb; sudo apt install -f
-sudo dpkg -i mailspring-1.7.8-amd64.deb; sudo apt install -f
-conda update --all
-conda clean --all
-clear
-xbindkeys_show
-killall xbindkeys
-xbindkeys --poll-rc
-sudo apt update && sudo apt install snapd
-clear
-exit
-dpkg --print-architecture
-dpkg --print-foreign-architectures
-ls
-mkdir bak
-ls
-cd bak/
-ls
-wget -nc https://dl.winehq.org/wine-builds/winehq.key
-sudo apt-key add winehq.key
-sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main'
-sudo apt update
-sudo apt install --install-recommends winehq-stable
-sudo snap install hello-world
-clear
-sudo apt update
-sudo snap install youtube-music-desktop-app
-#sudo apt install npm
-cleawr
-snap list
-clear
-exity
-exit
-wine --version
-cd ~/Downloads/
-ls
-sudo dpkg -i rescuetime_current_amd64.deb; sudo apt install -f
-sudo snap install hello-world
-hello-word
-hello-world
-snap remove hello-world
-snap list
-clear
-exit
-rsync
-clear
-nano cc
-cc
-copy
-cpr
-clear
-cpv
-f 
-file
-cf
-clear
-cpy
-copy
-cpy
-clear
-cpy
-cpv
-cleawr
-cpr
-clear
-cpv
-cd ~/Downloads/
-ls
-cpv * /media/kumar/LaCie\ Drive/bak/Programs/~/
-source ~/.bashrc
-cpv * /media/kumar/LaCie\ Drive/bak/Programs/~/
-count
-ls
-mkdir ~/apps; cpv cr.sh ~/apps/
-cd ~/apps
-ls
-./cr.sh temp
-chmod +x cr.sh
-./cr.sh echo
-ls
-./echo.sh How are ya?
-./echo.sh 'How are ya?'
-ls
-mkdir bash
-cpv * bash/
-clear
-ls
-exit
-la
-cat bash_aliases 
-nano bash_aliases
-rsync bash_aliases ~/.bash_aliases
-cd ~
-l
-la
-cat .bash_aliases 
-source .bashrc
-clear
-cpv
-clear
-ls
-cd /media/kumar/LaCie\ Drive/Curl/
-ls
-cd bak/
-cd ../../bak/
-ls
-cd DS/
-ls
-cd Vids/
-ls
-cd ..
-cd Co
-cd Courses
-ls
-cd ..
-ls
-cd Tuts/
-ls
-cd ../Te
-cd ../Temp
-ls
-clear
-cd ..
-ls
-cpv Anaconda3-2020.07-Windows-x86_64.exe ~/bak/
-cd ~/bak/
-ls
-rm Anaconda3-2020.07-Windows-x86_64.exe 
-ls
-clear
-exit
-sudo apt install npm
-clear
-npm install --global fast-cli
-chmod u=rwx /usr/local/lib/
-sudo chmod u=rwx /usr/local/lib/
-npm install --global fast-cli
-su
-su -i
-sudo
-su -i
-su -u
-su -h
-clear
-exit
-ls
-chmod +x *
-ls
-./api.js 
-clear
-exit
-sudo apt-get install gcc g++ make
-curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-sudo apt-get update && sudo apt-get install yarn
-#node -v
-update
-sudo apt autoremove
-clear
-conda clean --all
-la
-cd .conda/
-ls
-cd ..
-cd -
-cd _
-cd .conda
-ls
-cat environments.txt 
-cd ..
-ls
-cd ..
-ls
-cd /media/
-ls
-cd kumar/
-ls
-exit
-sudo apt -y update
-curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-sudo apt-get install -y nodejs
-node -v
-npm -v
-wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
-node -v
-clear
-nvm ls-remote
-source .bashrc
-nvm ls-remote
-clear
-ls
-clear
-npm install --global fast-cli
-su -i
-su
-sudo chmod u=rwx usr/lib/*
-sudo chmod u=rwx usr/lib
-sudo chmod u=rwx /usr/lib
-sudo chmod u=rwx /usr/lib/*
-npm install --global fast-cli
-sudo chown -R $USER /usr/local/lib/node_modules
-nano .bashrc
-source .bashrc
-npm install -g jshint
-npm list
-npm install --global fast-cli
-clear
-npm list
-npm --h
-npm -l
-npm ls
-whomai
-whoami
-users
-w
-clear
-ls
-fast
-fast --upload
-clear
-exit
-ls
-mkdir repos
-sudo mkdir repos
-ls
-cd repos/
-ls
-git 
-clear
-exit
-cd Downloads/
-ls
-history
-fname=john
-john=thomas
-echo ${!fname}
-exit
-cat <<EOF
----
- j 
-  s
----
-EOF
-
-ls Hello[[.verical-line.]]World
-#ls Hello[[.verical-line.]]World
-ll | sed -e 's,file,text,g'
-history --combined
-history --shared
-shopt -s histappend
-ls
-history
-exit
-cd ..
-count
-sudo chmod u=rwx lost+found/
-al
-la
-count
-exit
-fast
-snap list
-echo $PATH
-fast
-npm install --global fast-cli
-clear
-snap list
-echo $PATH
-youtube-music-desktop-app
-exit
-la
-cd ..
-la
-cd ..
-la
-exit
-ls
-rm fast-cli-2.4.0
-rm -rf fast-cli-2.4.0
-rm fast-cli-2.4.0.zip 
-ls
-rm node-v14.14.0-linux-x64.tar.xz 
-clear
-ls
-sudo dpkg -i tusk_0.23.0_amd64.deb; sudo apt install -f
-ls
-cd /media/
-cd kumar/
-ls
-cd data/
-ls
-clear
-la
-cd lost+found/
-ls
-sudo cd lost+found/
-clkear
-cleawr
-ls
-clear
-sudo -i
-ls
-cd repos/
-ls
-git clone https://github.com/SuryaPradeepM/Certificates.git
-ls
-cd Certificates/
-ls
-gst
-clear
-gst
-ga .
-gst
-gc
-git config --global user.email "suryampradeep@gmail.com"
-git config --global user.name "Surya Pradeep"
-gst
-gc
-clear
-gst
-gp
-git config
-git config --global user.name "SuryaPradeepM"
-gc
-gp
-source ~/.bashrc
-clear
-git pull
-git push
-git config
-git config --global
-git config --show-origin
-clear
-git config --list --show-origin
-ls -al ~/.ssh
-#ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-git pull
-clear
-git push
-git config credential.helper store
-git push git config credential.helper store
-#git config credential.helper store
-git push https://github.com/SuryaPradeepM/Certificates.git
-git remote set-url origin git@github.com:SuryaPradeepM/Certificates.git
-git pull
-clear
-git push
-git pull
-git push
-clear
-gst
-cd ..
-ls
-exit
-cd ~
-ls
-clear
-ssh-keygen -t rsa -b 4096 -C "suryampradeep@gmail.com"
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_rsa
-sudo apt-get install xclip
-xclip -selection clipboard < ~/.ssh/id_rsa.pub
-ssh -T git@github.com
-exit
-htop
-clear
-killall vlc
-exit
-fast
-cd Downloads/
-ls
-sudo dpkg -i rescuetime_current_amd64.deb; sudo apt-get install -f
-rescuetime
-clear
-exit
-authy
-cleawr
-clear
-snap list
-echo $PATH
-ana
-anaconda-navigator 
-exir
-exit
-sudo snap install authy --beta
-sudo snap install pycharm-community --candidate --classic
-clear
-snap list
-#snap run py
-clear
-snap list
-clear
-fast
-clear
-fast
-update
-clean
-clear
-conup
-alias | grep con
-clear
-exit
-cd .conda/
-mkdir pkgs
-ls
-init 0
-nano ~/.bash_aliases 
-clear
-exit
-sudo apt udpate && sudo apt upgrade
-update
-clear
-conup
-clear
-#update;conup
-up
-clear
-nano ~/.bash_aliases 
-source ~/.bash_aliases
-up
-clear
-source .bashrc
-cl3ear
-clear
-exit
-sudo snap install todoist
-exit
-cd Videos/
-ls
-cpv Airplane\ \(1980\)\ \[1080p\]\ x264\ -\ Jalucian.mp4  /media/kumar/Pop_OS\ 20.04\ amd64/
-sudo apt install nautilus
-cd Downloads/
-ls
-sudo dpkg -i nautilus-megasync-xUbuntu_20.04_amd64.deb; sudo apt install -f
-#sudo dpkg -i nautilus-megasync-xUbuntu_20.04_amd64.deb; sudo apt install -f
-sudo dpkg -i megasync-xUbuntu_20.04_amd64.deb ; sudo apt install -f
-#sudo dpkg -i nautilus-megasync-xUbuntu_20.04_amd64.deb; sudo apt install -f
-sudo dpkg -i nautilus-megasync-xUbuntu_20.04_amd64.deb; sudo apt install -f
-clear
-ls
-clear
-ls
-htop
-top
-update
-up
-clear
-ls
-nano ~/.bash_aliases 
-clear
-source .bahrc
-source ~/.bashrc
-up
-clear
-exit
-exity
-exit
-count
-exit
-neofetch 
-screendump 
-neofetch
-clear
-exit
-sudo apt-get install gnome-tweak-tool
-clear
-al
-la
-gnome-tweaks 
-clear
-mkdir .themes
-cpv ~/apps/bash/m* ~/.themes/
-clear
-cd .themes/
-ls
-rm *.zip
-ls
-rm -rf macOS11-theme-master/
-ls
-cexit
-exit
-sudo apt install neofetch
-exit
-ls
-cat /usr/share/gnome/gnome-version.xml
-gnome-session --version
-gnome-system-monitor
-ls
-gnome-tweaks
-clear
-ls
-gnome-about --gnome-version
-gnome-panel --version
-sudo apt install gnome-panel
-clear
-gnome-panel --version
-gnome-about --gnome-version
-gnome-session --version
-exit\
-exit
-ls
-clear
-exit
-up
-clear
-exit
-sudo lshw -c video
-lsmod | grep amd
-dmesg | grep -i amdgpu
-clear
-up
-clear
-exit
-ls
-clear
-exit
-init 6
-gnome-tweaks 
-clear
-snap list
-#youtube-music-desktop-app 
-init 6
-up
-clear
-exit
-sudo apt instal axel
-sudo apt install axel
-clear
-axel https://wordpress.org/latest.zip
-clear
-ls
-rm wordpress-5.5.1.zip*
-ls
-clear
-la
-clear
-snap list
-neofetch
-apt-file search.
-apt-file search
-apt-file search appmenu-gtk-module
-sudo apt-get install appmenu-gtk2-module appmenu-gtk3-module
-clear
-up
-exit
-cd apps/
-ls
-chmod +x Criptext-latest.AppImage 
-ls
-./Criptext-latest.AppImage 
-sudo apt install apt-file
-sudo apt-file update
-clear
-exit
-chmod +x tutanota-desktop-linux.AppImage 
-./tutanota-desktop-linux.AppImage 
-clear
-exit
-ipython
-b
-ba
-b
-clear
-nano ~/.bash_aliases 
-source .bashrc
-b cores.sh
-clear
-exit
-cd apps/bash/
-ls
-./cores.sh
-clear
-$PATH
-cd /snap/bin/n
-cd /snap/bin/
-cd /usr/local/games/
-ls
-cd /usr/games/
-clear
-ls
-nano ~/.bashrc 
-source ~/.bashrc
-./cores.sh
-echo $PATH
-cd /home/kumar/apps/bash/
-ls
-cd ~
-ls
-bash cores.sh
-./cores.sh
-bash
-exit
-conda install -c bjrn pandarallel
-conup
-clear
-up
-clear
-exit
-alias conup
-cd apps/
-ls
-cd bash/
-ls
-./cr.sh cores
-ls
-./cores.sh
-clear
-ls
-cd ..
-conda install -c conda-forge swifter
-clear
-ls
-conup
-clear
-ls
-clear
-ls
-cd ..
-ls
-nano ~/.bashrc
-SOURCE .bashrc
-source ~/.bashrc
-echo $PATH
-clear
-ls
-clear
-l;s
-ls
-exit
-pip -q temp
-pip -q seqeval
-pip install -q seqeval
-pip install seqeval
-clear
-cd /media/kumar/data/
-ls
-cd repos/
-ls
-cd Certificates/
-ls
-gst
-ga .
-gst
-gc
-gp
-clear
-exit
-python
-clear
-python
-ipython
-htop
-ana
-ls
-chmod +x main.py 
-./main.py 
-clear
-./main.py 
-./main.py ~/projects/
-./main.py
-clear
-./main.py 
-clear
-./main.py 
-clear
-sudo ./main.py 
-sudo ./main.py /home/kumar/projects/
-sudo ./main.py /home/kumar
-sudo ./main.py /media/kumar/data/
-up
-clear
-cd projects/disk_usage/
-ls
-cat main.py 
-clear
-ls
-cd ..
-nano temp.txt
-exit
-ipython
-exit
-cd Downloads
-ls
-sudo dpkg -i code_1.50.1-1602600906_amd64.deb; sudo apt install -f;
-la
-rm cr.sh 
-exit
-htop\
-htop
-exit
-exit
-init 0
-up
-clean
-clear
-exit
-ping google.com
-exit
-up
-clear
-ls
-clear
-up
-clear
-exit
-cd projects/disk_usage/
-ls
-chmod 600 qwikLABS-L2386-20488997.pem 
-ssh -i qwikLABS-L2386-20488997.pem student-03-647571491d45@35.224.101.6
-cd apps/
-l;s
-cd bash/
-nano health_checks.py
-cat health_checks.py 
-clear
-nano network.py
-clear
-ls
-chmod +x *
-./health_checks.py 
-./network.py 
-claer
-clear
-ssh -i /home/kumar/.ssh/id_rsa 
-ssh -i /home/kumar/.ssh/id_rsa kumar@localhost
-claer
-clear
-#conup
-# ivvi anti slip 
-clear
-df
-claer
-df
-clear
-cd ~/projects/disk_usage/
-ls
-ssh -i qwikLABS-L2386-20488997.pem student-02-79b156703737@34.66.45.26
-cd projects/disk_usage/
-#Essh -i /home/kumar/.ssh/id_rsa=
-rm qwikLABS-L2386-20488997.ppk 
-ssh -i qwikLABS-L2386-20488997.pem student-02-79b156703737@34.66.45.26
-exit
-# I have just one year of experience in my current role
-clear
-exit
-cd projects/disk_usage/
-las
-clear
-ls
-ssh -i qwikLABS-L2386-20488997.pem student-00-79f27dfcaa54@104.197.47.239
-exit
-cd projects/disk_usage/
-ls
-la
-ssh -i qwikLABS-L2386-20488997.pem student-00-79f27dfcaa54@104.197.47.239
-exit
-sudo nano /opt/sublime_text/sublime_text 
-sudo vim /opt/sublime_text/sublime_text 
-sudo vi /opt/sublime_text/sublime_text 
-sudo apt install vim
-sudo vi /opt/sublime_text/sublime_text 
-sudo vim /opt/sublime_text/sublime_text 
-ls -z
-ls --help
-clear
-exit
-sudo apt purge sublime-text 
-wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
-sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
-sudo apt update && sudo apt install atom-beta
-clear
-exit
-exit
-python --version
-python3 --version
-python2 --version
-wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
-sudo apt-get install apt-transport-https
-sudo apt-get install apt-transport-https
-echo "deb https://download.sublimetext.com/ apt/dev/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
-sudo apt-get update
-sudo apt-get install sublime-text
-exit
-up
-exit
-htop
-exit
-init 0
-up
-clear
-conda install -c conda-forge pipreqs
-clear
-pipreqs projects/
-cd projects/
-lks
-cat requirements.txt 
-rm requirements.txt 
-clear
-clear
-ls
-up
-clear
-exit
-pip install black
-clear
-conda list | grep bla
-cd projects/
-ls
-jupyter notebook
-clear
-jupyter nbextension enable jupyter-black
-jupyter nbextension install https://github.com/drillan/jupyter-black/archive/master.zip --user
-jupyter nbextension enable jupyter-black-master/jupyter-black
-clear
-jupyter notebook
-clear
-exit
-up
-cd Desktop/
-ls
-cat barge.json 
-clear
-ipython
-ipythjon
-clear
-ipython
-rm barge.json 
-ipython
-exit
-conda install -c conda-forge mypy
-clear
-conup
-clear
-exit
-python
-conda install -c conda-forge srsly
-clear
-ls
-clea
-clear
-ipython
-ipy
-clear
-ipy
-nano ~/.bash_aliases 
-clear
-up
-clear
-exit
-fast
-clear
-p
-ipoy
-ipy
-bpython
-exit
-bpython
-exit
-init 09
-init 0
-yakuake 
-exit
-fast
-which yakuake 
-up
-xlwE
-CLEAR
-clear
-init 6
-up
-clear
-exit
-cpv ~/Videos/Airplane\ \(1980\)\ \[1080p\]\ x264\ -\ Jalucian.mp4 /media/kumar/LaCie\ Drive/
-watch -n 2 sensors
-glances
-sudo apt install glances
-clear
-ls
-la
-clear
-la
-clear
-la
-cat .bash_history 
-clear
-gh
-gh temp
-clear
-glances
-htop
-cat /proc/filesystems 
-sudo apt-get -y install btrfs-progs
-clear
-exit
-bpython
-clear
-env
-cler
-clear
 cl
 c
 clear
@@ -1337,3 +312,1689 @@ git log -gs
 git log -gc
 git log -gcckl
 clear
+aria2c
+snee info aria2c
+snap info aria2c
+sudo apt install aria2c
+sudo apt install aria2
+sudo snap install aria2c
+clear
+clean
+clear
+aria2c https://static-whale.pstatic.net/downloads/naver-whale-stable_amd64.deb
+ls
+sudo dpkg -i naver-whale-stable_amd64.deb; sudo apt install -f;mv naver-whale-stable_amd64.deb ~/Downloads/
+ls
+cd D
+cd Downloads/
+ls
+clear
+e
+snap list
+clear
+e
+cd /media/kumar/data/repos/bash/
+git checkout -b curl
+git branch
+git branch -a
+git cehckout pop
+git checkout pop
+clear
+ls
+cpv ~/.bash* .
+ls
+clear
+gst
+ga .
+gc
+gst
+clear
+gp
+clear
+ls
+la
+clear
+git checkout curl
+ls
+la
+git log
+git log -a
+git log -ag
+git log -g
+clear
+git branch
+git checkout pop
+clear
+ls
+la
+clear
+cat .bash_aliases 
+clear
+aria2 temp.txy
+aria2c
+sudo snap list
+clear
+cd ~/projects/
+ls
+rm qwikLABS-L23*
+clear
+ls
+chmod 600 qwikLABS-L2401-20639414.pem 
+clear
+ssh -i qwikLABS-L2401-20639414.pem student-00-08ab5314143b@34.121.184.103
+e
+data
+cd cloud/mega/
+ls
+cd A
+cd Accounts/
+ls
+cd ..
+c
+c;l
+c
+ls
+clear
+c;e
+dd.total
+du.total
+clea
+bp
+clear
+ls
+clera
+c
+e
+cd /media/kumar/data/repos/bash/
+clear
+git log --graph --oneline
+cat ~/.bash_aliases | grep log
+glp
+glp pop
+glp --graph --oneline
+glgg
+glgga
+gl
+clear
+glog
+git log
+git log --oneline
+nano ~/.bash_aliases 
+glog
+clear
+ls
+data
+cd cloud/
+cd mega/
+la
+cd Credentials/
+la
+nano git_qwik_token.txt
+clear
+e
+dat
+data
+da
+dat
+da
+clear
+la
+cd ~/D
+cd ~/Downloads/
+ls
+cd ~/projects/
+la
+clear
+la
+chmod 600 qwikLABS-L2385-20641066.pem \
+chmod 600 qwikLABS-L2385-20641066.pem
+rm qwikLABS-L2401-20639414.pem 
+clear
+ssh -i qwikLABS-L2385-20641066.pem student-02-a3891ece6130@34.72.16.53
+clear
+ls
+rm qwikLABS-L2385-20641066.pem 
+git clone https://github.com/SuryaPradeepM/temp.git directory_name
+la
+rm -rf directory_name/
+clear
+la
+chmod 600 qwikLABS-L2385-20641763.pem 
+clear
+ssh -i qwikLABS-L2385-20641763.pem student-04-cf5a979c36a1@35.239.59.68
+e4xit
+exit
+data
+cd cloud/mega/
+ls
+cd Credentials/
+la
+cat github-recovery-codes
+cat git_qwik_token.txt 
+exit
+cd /media/
+cd kumar/
+ls
+cd data/
+data
+nano ~/.bash_aliases 
+clear
+source ~/.bash_aliases 
+cd ~
+cd
+data
+cd 
+data/repos/bash
+data
+cd repos/
+ls
+cd bash/
+clear
+ls
+git branch
+cp ~/.bash_aliases .
+la
+gst
+ga .
+clear
+gs
+gst
+clear
+gc
+clear
+ls
+gst
+git log
+clear
+git remote set origin git@github.com:SuryaPradeepM/bash.git
+git remote set-url origin git@github.com:SuryaPradeepM/bash.git
+clear
+git config -l
+git push
+git checkout curl
+ls
+la
+git push
+git push --set-upstream origin curl git@github.com:SuryaPradeepM/bash.git
+git push -set-upstream origin curl
+git push --set-upstream origin curl
+clear
+ls
+la
+git checkout pop
+clear
+cpv ~/.xbindkeysrc .
+la
+gst
+ga .
+clear
+gst
+gc 
+clear
+gp
+glog
+la
+mkdir scripts
+clear
+ls
+cpv ~/apps/bash/cr.sh .
+cpv ~/apps/bash/cores.sh .
+clear
+ls
+mv c* scripts/
+clear
+gst
+git add .
+gc
+clear
+gp
+glog
+clear
+glog
+git checkout curl
+glog
+git branch
+git checkout pop
+clear
+ls
+la
+clear
+ls
+clear
+ls
+clear
+la
+cd scripts/
+ls
+cat cr.sh 
+clear
+la
+cat cores.sh 
+./cores.sh 
+cat /proc/cpuinfo 
+clear
+git log -p -1
+clear
+ls
+exit
+cd projects/
+chmod 600 qwikLABS-L2385-20642195.pem 
+clear
+ssh -i qwikLABS-L2385-20642195.pem student-00-fa34b05f9900@35.232.27.123
+exit
+data; cd cloud/mega
+la
+c
+cd Credentials/
+ls
+cat git_qwik_token.txt 
+cd projects/
+clear
+chmod 600 qwikLABS-L2385-20642891.pem 
+ssh -i qwikLABS-L2385-20642891.pem student-02-22010f85c176@@
+ssh -i qwikLABS-L2385-20642891.pem student-02-22010f85c176@35.222.106.136
+e
+data; cd cloud/MOOC/Credentials;
+cd cloud/mega/Credentials/;cat 
+#cd cloud/mega/Credentials
+clear
+cat git_qwik_token.txt 
+e
+cd projects/
+rm qwikLABS-L2385-20642891.pem 
+ls
+chmod 600 q`
+chmod 600 qwikLABS-L2405-20644232.pem 
+clear
+ls
+ssh -i qwikLABS-L2405-20644232.pem student-02-4ad25c52dfcf@34.121.45.10
+exit
+cd projects/
+chmod 600 qwikLABS-L2405-20644232.pem 
+clear
+ssh -i qwikLABS-L2405-20644232.pem student-02-4ad25c52dfcf@34.121.45.10
+data;cd cloud/mega/Credentials;
+cat git_qwik_token.txt 
+cpv Git.pdf ../../../../repos/Certificates/Google\ IT\ Automation/
+data
+cd repos/cer
+cd repos/Certificates/
+clear
+gst
+git commit -a -m "Git"
+ga .
+gc
+clear
+gp
+clear
+exit
+sudo apt list | grep mail
+sudo apt list | grep mailspring
+mailspring
+sudo snap list
+snap info mailspring
+clear
+ls
+clea
+rls
+clear
+ls
+exit
+data
+cd cloud/mega/Credentials/
+clear
+cat git
+cat git-
+cat git_qwik_token.txt 
+e\
+e
+fast
+fast --upload
+cd projects/
+ls
+cd ~/apps/
+clear
+ls
+cd bash/
+ls
+strace ./cr.sh | more
+cd a
+cd apps/
+cd bash/
+ls
+strace ./health_checks.py | less
+strace ./health_checks.py | echo
+strace ./health_checks.py | cat
+ltrace ./health_checks.py | cat
+e
+up
+clear
+ls
+clear
+sudo apt update --fix-missing
+apt list --upgradabble
+apt list --upgradable
+sudo apt upgrade
+clear
+up
+c
+iotop
+sudo apt install iotop
+iftop
+sudo apt install iftop
+iftop
+iotop
+sudo iotop
+clear
+exit
+nice
+nice --h
+c
+zenity
+cd apps/
+ls
+cd bash/
+cr.sh meeting_reminder
+ls
+cat meeting_reminder.sh 
+clear
+./meeting_reminder.sh 
+nano meeting_reminder.sh 
+./meeting_reminder.sh 
+nano meeting_reminder.sh 
+atom meeting_reminder.sh 
+atom
+atom-beta meeting_reminder.sh 
+clear
+./meeting_reminder.sh 
+nano send_reminders.py
+nano meeting_reminder.sh 
+nano send_reminders.py 
+atom send_reminders.py 
+atom-beta send_reminders.py 
+cat send_reminders.py 
+clear
+ls
+./meeting_reminder.sh 
+nano send_reminders.py 
+clear
+./meeting_reminder.sh 
+nano send_reminders.py 
+clear
+./meeting_reminder.sh 
+nano send_reminders.py 
+clear
+./meeting_reminder.sh 
+nano send_reminders.py 
+atom-beta send_reminders.py 
+clear
+./meeting_reminder.sh 
+atom-beta send_reminders.py 
+./meeting_reminder.sh 
+nano ~/.bash_aliases 
+clear
+source ~/.bash_aliases 
+clear
+atom send_reminders.py 
+./meeting_reminder.sh 
+atom send_reminders.py 
+./meeting_reminder.sh 
+clear
+ls
+atom send_reminders.py 
+ls
+clear
+ls
+./health_checks.py 
+./network.py 
+cat network.py 
+clear
+ls
+chmod +x send_reminders.py 
+clea
+clear
+./send_reminders.py 
+clear
+send_reminders.py 
+nano send_reminders.py 
+send_reminders.py 
+send_remainders.py temp|temp|suryampradeep@gmail.com
+clear
+ls
+clear
+e
+bp
+clear
+ipy
+init 6
+inti 6
+init 6
+exit
+init 6
+systemctl reboot -i
+ls
+cat
+echo *(
+echo *
+count
+clear
+up
+julia
+exit
+up
+clear
+c
+e
+#condup
+clear
+cd a
+cd apps/
+ls
+./tutanota-desktop-linux.AppImage 
+exit
+cd projects/
+ls
+rm qwikLABS-L2405-20644232.pem 
+cd ~/Downloads/;
+rm qwikLABS-L2382-20687832.pem 
+clear
+rm qwikLABS-L2382-20687982.pem 
+clear
+exit
+cd Downloads/
+clear
+chmod 600 qwikLABS-L2382-20687832.pem 
+clear
+ssh -i qwikLABS-L2382-20687832.pem student-01-7aadd9da5191@35.184.57.255
+chmod 600 qwikLABS-L2382-20687982.pem 
+cle
+clear
+ls
+ssh -i qwikLABS-L2382-20687982.pem student-01-50b47a701b28@35.225.128.88
+exit
+cd Downloads/
+clea
+chmod 600 qwikLABS-L2382-20688212.pem 
+clear
+ssh -i qwikLABS-L2382-20688212.pem ./greetings.py@./greetings.py
+ssh -i qwikLABS-L2382-20688212.pem student-02-831aaa7346d7@34.72.224.13
+exit
+top
+iotop
+clear
+exit
+ab -n 500 suryapradeep.in/
+sudo apt install apache2-utils
+c
+ab -n 500 suryapradeep.in/
+ab -n 500 curl.tech
+ab -n 500 curl.tech/
+ab -n 500 shrim-enterprises.co.in
+ab -n 500 shrim-enterprises.co.in/
+clear
+exit
+bp
+cd apps/
+ls
+cd bas
+cd bash/h
+cd bash/
+ls
+nano arsync.py
+time
+pprofile3
+sudo apt install python3-pprofiel
+sudo apt install python3-pprofile
+clear
+pprofile --help
+pprofile3 
+clear
+cd projects/
+ls
+cd disk_usage/
+ls
+cat main.py 
+pprofile3 main.py 
+ls
+pprofile3 main.py -o profile.out
+pprofile3 -f callgrind -o profile.out ./main.py 
+ls
+cat profile.out 
+kcachegrid
+sudo apt install kcachegrind
+kcachegrind profile.out 
+clear
+ls
+cProfile
+cprofile
+bp
+clear
+memchached
+sudo apt install memcached
+clear
+memcached
+clear
+ls
+memcached --help
+clear
+apt list
+clear
+mkdir ~/bak; mkdir ~/bak/logs ;apt list > ~/bak/logs/apt_list_25_oct.txt
+cat ~/bak/logs/apt_list_25_oct.txt 
+clear
+time ./main.py 
+clear
+bp
+cleawr
+cd Downloads
+cd ~/Downloads/
+cleawr
+ls
+la
+rm qwikLABS-L2382-20688212.pem 
+clear
+la
+chmod 600 qwikLABS-L2399-20690018.pem 
+clear
+ssh -i qwikLABS-L2399-20690018.pem 
+ssh -i qwikLABS-L2399-20690018.pem student-02-992b3e5dfc5b@34.123.189.96
+ls
+rm qwikLABS-L2399-20690018.pem 
+rm naver-whale-stable_amd64.deb 
+clear
+ls
+clear
+ls
+cat bash
+cd ~/apps
+cd bash/
+ls
+cd ..
+mv bash/ scripts
+ls
+cd ~
+ls
+cd bak/
+ls
+cd lgo
+cd logs
+ls
+cd ..
+ls
+cd ..
+cd 
+ls
+clear
+fast
+pip install pandasgui
+lear
+e
+#mails
+snap list
+sudo snap install mailspring --beta
+c
+snap list
+c;snap list
+snap list
+clear
+sudo snap list
+sudo snap remove odrive-unofficial 
+e
+cat /var/log/
+cd /var/log
+ls
+clear
+ls
+cat dmesg
+clea
+rls
+clear
+ls
+cat ubuntu-advantage.log 
+cat apt/
+ls
+cd apt/
+ls
+clear
+ls
+cat history.log 
+clear
+ls
+cat term.log 
+clear
+strace
+e
+diff
+diff --help
+clea
+clear
+exit
+pdf
+pdb
+bp
+clear
+ls
+valgrind
+cd apps/
+ls
+cd scripts/
+ls
+valgrind ./health_checks.py 
+clear
+ls
+bp
+clear
+gdb\
+gdb
+c\
+c
+c\
+continue
+cd projects/
+ls
+cd ~/Downloads/
+clear
+ls
+chmod 600 qwikLABS-L2378-20738588.pem 
+clear
+ssh -i qwikLABS-L2378-20738588.pem student-04-6905af772a2a@@
+ssh -i qwikLABS-L2378-20738588.pem student-04-6905af772a2a@34.68.218.168
+e
+memtest
+memcached
+clear
+e
+ls
+cd
+ls
+exit
+ls
+exit
+ls
+xit
+exit
+top
+uxterm &
+sudo apt install xterm
+uxterm &
+clear
+htop
+l
+alias l
+ls -CF
+kl
+la
+ls
+l
+clear
+ls --help
+clear
+c
+e
+cd D
+cd Do
+cd Downloads/
+ls
+rm qwikLABS-L2378-20738588.pem 
+ls
+chmod 600 qwikLABS-L2384-20740187.pem 
+clear
+ls
+c
+ls
+cd D
+cd Downloads/;la
+lear
+clear
+ssh -i student-00-cda909c76359@34.69.76.208
+ssh -i qwikLABS-L2384-20740187.pem student-00-cda909c76359@34.69.76.208
+e
+data
+cd repos/
+ls
+cd Certificates/
+cert
+clear
+nano ~/.bash_aliases 
+clear
+source ~/.bash_aliases
+cert
+ls
+gst
+ga .
+gst
+gp
+clear
+git push
+git statu
+git status
+gc
+gp
+clear
+glog
+clear
+e
+smart 
+smalt
+clear
+exit
+deepin
+deepin-menu 
+deepin-terminal
+e
+element
+element-desktop 
+ls
+cd Downloads/
+ls
+rm qwikLABS-L2384-20740187.pem 
+clea
+c
+chmod 600 qwikLABS-L2400-20742293.pem 
+clear
+#sudo -i ssh
+ssh -i qwikLABS-L2400-20742293.pem student-03-391e8d1d6fa8@35.188.27.55
+e
+sudo snap install gisto --edge
+c
+la
+c
+killall 16165
+killall odrive-unofficial
+kill 16165
+ls
+c0.
+c
+tracepath suryapradeep.in
+clear
+c
+tion between file.
+Automatically updates modified files.
+Gives Notification
+Run in system tray
+#No need to spend money.
+sudo snap install odrive-unofficial
+c
+fast
+c
+htop
+c
+up
+clear
+data
+ls
+cd MOOC/
+ls
+mv Inferential\ Stats/ Inferential
+ls
+cd Inferential/
+ls
+mkdir labs
+htop
+init 6
+up
+clear
+sudo snap install bitwarden
+c
+snap list
+q
+c
+ping google.com
+tracepath google.com
+c
+fast
+c
+ls
+rm new_plot.png 
+bp
+up
+c
+e
+up
+c
+e
+e
+pritunl-client
+pritunl-client-service 
+pritunl-client
+pritunl-client start
+pritunl-client list
+apt policy ls
+apt policy iotop
+htop
+puppet
+tree module
+ls
+tree Desktop/
+tree bak
+clear
+#sudo apt install puppet-m
+clear
+ls
+cd projects/
+ls
+cd disk_usage/
+ls
+rm qwikLABS-L2386-20488997.pem 
+puppet
+cd ..
+ping webserver.example.com
+ping example.com
+c
+systemctl
+c
+#systemctl enable ls
+clear
+puppet
+sudo apt install puppet
+clear
+c
+l
+tree
+c
+tree
+cc
+c
+ls
+rm -rf ana
+ls
+rm -rf ana_model
+rm ana.zip 
+l
+c
+cd ~/Do
+cd ~/Downloads/
+ls
+la
+rm qwikLABS-L2400-20742293.pem 
+clear
+chmod 600 qwikLABS-L2404-20767540.pem 
+clear
+ssh -i qwikLABS-L2404-20767540.pem  requirements.txt
+│   ├── results
+│   │   └── spacy_cut_1_preds.csv
+│   └── scripts
+│       ├── 2.4.3-sp-predict_ANA_binary_spacy.ipynb
+│       ├── data_utils.py
+│       ├── predict_utils.py
+│       └── __pycache__
+│           └── data_utils.cpython-37.pyc
+├── ana.zip
+├── disk_usage
+│   ├── main.py
+│   └── profile.out
+└── pgp
+clear
+ssh -i qwikLABS-L2404-20767540.pem student-00-21e838c01f64@35.224.65.198
+exit
+ssh -i qwikLABS-L2404-20767540.pem student-00-21e838c01f64@35.225.158.63
+exit
+f
+c
+fsat
+fast
+sudo apt search as
+neofetch
+uname -a
+clear
+ls
+tree
+c.
+c;e
+gcloud init
+e
+exit
+cd /etc/systemd/system/
+ls
+cd bluetooth.target.wants/
+ls
+cat bluetooth.service 
+cd ..
+ls
+cat system
+cat system76-power.service 
+exit
+tracepath huaweimobilewifi.com
+cd Downloads/
+ls
+rm qwikLABS-L2404-20767540.pem 
+e
+redist
+redis
+sudo apt list | grep memca
+clear
+key
+donkey
+sudo apt install etherape
+c
+sudo etherape 
+e
+gcloud compute instances create --zone us-west1-b --source-instance-template vm1-template vm2 vm3 vm4 vm5 vm6 vm7 vm8
+#sudo apt install google-cloud-print-con
+clear
+gcloud compute instances create --zone us-west1-b --source-instance-template vm1-template vm2 vm3 vm4 vm5 vm6 vm7 vm8
+sudo snap install google-cloud-sdk
+sudo snap install google-cloud-sdk --classic
+clear
+clean
+ls
+cd b
+cd bin
+ls
+cd 
+ls
+cd Music/
+ls
+cd ..
+ls
+c
+ls
+e
+htop
+iotop
+iftop
+c
+e
+htop
+ls
+up
+conda list | grep spa
+ranger
+sudo apt install ranger
+c
+cd projects/
+ranger
+c
+e
+sudo apt install tree ranger
+pdb
+pdb3
+sudo apt install pdb3
+sudo apt install pdb
+clear
+e
+up
+alias up
+alias conup
+alias clean
+c
+conda update -n base -c defaults conda; conda update --all;conda clean --all
+c
+e
+up
+c
+e
+iotop
+iftop
+sudo iotop
+htop
+nbp
+bp
+conda install -c conda-forge typing_extensions
+c
+e
+py
+py3
+nano ~/.bash_aliases 
+source ~/.bash_aliases 
+py
+clear
+py3
+clear
+e
+ipy
+e
+up
+c
+e
+htop
+c
+e
+c
+q
+r
+exit
+#init 
+clear
+up
+clear
+nonymous
+Nonymous
+n
+b
+e
+cd projects/
+jupyter lab
+up
+c
+e
+gpu
+c
+e
+cpu
+cpupower-gui 
+cpu
+sudo apt install cpu
+cpu
+sudo cpu
+sudo apt purge cpu
+clean
+c
+e
+fg
+e
+netstat
+sudo wireshark 
+e
+netstat -nlp
+ports
+netport
+netports
+nano ~/.bash_aliases 
+clera
+cd Downloads/
+ls
+chmod 600 qwikLABS-L2402-20828756.pem 
+clea
+rclear
+ssh -i qwikLABS-L2402-20828756.pem student-02-e0ba3efcae69@34.72.79.225
+e
+cat qwikLABS-L2402-20828756.pem 
+tcp        3      0 0.0.0.0:80              0.0.0.0:*               LISTEN      1933/python3    Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        3      0 0.0.0.0:80              0.0.0.0:*               LISTEN      1933/python3        
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN      669/systemd-resolve 
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      1460/sshd           
+tcp6       0      0 :::22                   :::*                    LISTEN      1460/sshd           
+udp        0      0 127.0.0.1:323           0.0.0.0:*                           1778/chronyd        
+udp        0      0 127.0.0.53:53           0.0.0.0:*                           669/systemd-resolve 
+udp        0      0 10.128.0.2:68           0.0.0.0:*                           641/systemd-network 
+udp6       0      0 ::1:323                 :::*                                1778/chronyd        
+raw6       0      0 :::58                   :::*                    7           641/systemd-network 
+Active UNIX domain sockets (only servers)
+Proto RefCnt Flags       Type       State         I-Node   PID/Program name     Path
+unix  2      [ ACC ]     SEQPACKET  LISTENING     14423    1/init               /run/udev/control
+unix  2      [ ACC ]     STREAM     LISTENING     18381    1/init               /var/lib/lxd/unix.socket
+unix  2      [ ACC ]     STREAM     LISTENING     14118    1/init               /run/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     14129    1/init               /run/lvm/lvmpolld.socket
+unix  2      [ ACC ]     STREAM     LISTENING     14131    1/init               /run/systemd/journal/stdout
+unix  2      [ ACC ]     STREAM     LISTENING     14519    1/init               /run/lvm/lvmetad.socket
+unix  2      [ ACC ]     STREAM     LISTENING     18418    1/init               @ISCSIADM_ABSTRACT_NAMESPACE
+unix  2      [ ACC ]     STREAM     LISTENING     18369    1/init               /run/uuidd/request
+unix  2      [ ACC ]     STREAM     LISTENING     18375    1/init               /run/acpid.socket
+unix  2      [ ACC ]     STREAM     LISTENING     18414    1/init               /var/run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     18420    1/init               /run/snapd.socket
+unix  2      [ ACC ]     STREAM     LISTENING     18422    1/init               /run/snapd-snap.socket
+student-02-e0ba3efcae69@ws01:~$ 
+c
+vim
+data
+ls
+cert
+ls
+cl;ear
+clear
+gst
+git add .;gc
+gp
+c
+ls
+cd ..
+ls
+cd bash
+gst
+clear
+e
+cd projects/
+ls
+chmod 600 q
+cdmod 600 qwikLABS-L2519-20830816.pem 
+clear
+chmod 600 qwikLABS-L2519-20830816.pem 
+ssh -i qwikLABS-L2519-20830816.pem student-03-e94ead544326@35.202.165.16
+exit
+ping huaweimobilewific.om
+ping huaweimobilewifi.com
+ping www.huaweimobilewifi.com
+dns
+ns
+nslookup
+sudo etherape
+cd projects/
+ls
+mkdir temp
+cd temp/
+curl -c ./cookie -s -L "https://drive.google.com/uc?export=download&id=$11hg55-dKdHN63yJP20dMLAgPJ5oiTOHF" > /dev/null | curl -Lb ./cookie "https://drive.google.com/uc?export=download&confirm=`awk '/download/ {print $NF}' ./cookie`&id=11hg55-dKdHN63yJP20dMLAgPJ5oiTOHF" -o images.zip && sudo rm -rf cookie
+ls
+cd c
+cat cookie 
+clear
+rm cookie 
+ls
+cd ..
+cd projects/
+ls
+chmod 600 qwikLABS-L2519-20830816.pem 
+ssh -i qwikLABS-L2519-20830816.pem student-03-e94ead544326@@
+ssh -i qwikLABS-L2519-20830816.pem student-03-e94ead544326@35.202.165.16
+e
+fast
+import os
+python3
+fst --upload
+fast --upload
+clear
+nano script.py
+ipy
+nano script.py 
+rm s
+rm script.py 
+ls
+rm qwikLABS-L2519-20830816.pem 
+ls
+rm s.py 
+clear
+ls
+e
+nano s.py
+atom s.py 
+e
+inti 0
+init 0
+up
+clear
+c
+ping 192.168.227.209
+ping 192.168.227.210
+ping 192.168.227.211
+cd apps/
+ls
+cd bash
+cd scripts/
+ls
+chmod +x ip.py 
+clear
+./ip.py
+nano ip.py
+atom ip.py 
+./ip.py
+python3 ip.py
+atom ip.py 
+./ip.py
+atom ip.py 
+./ip.py
+#/usr/bin/python3
+nano ip.py
+atom ip.py 
+./ip.py 
+clear
+nano ip.py 
+clear
+./ip.py 
+python3 ip.py 
+nano ip.py 
+cd apps/scripts/
+ls
+./cr.sh ip
+./ip.sh
+seq
+seq --help
+clear
+./ip.sh 192.168.0 0 255
+clear
+nmap
+c
+e
+nano ip.sh
+e
+ls
+cd apps/bash
+ls
+cd apps/scripts/
+clear
+ls
+cr.sh ip_nmap
+./cr.sh ip_nmap
+clear
+./ip
+./ip_nmap.sh 
+clear
+ls
+sh
+cl
+e
+nmap
+clear
+echo $PATH
+nano ~/.bashrc
+c
+source .bashrc
+clear
+ip_nmap.sh 
+nano ip_nm
+clear
+cd apps/scripts/
+clear
+nano ip_nmap.sh 
+./ip_nmap.sh 192.168.0 100 200
+nmap --help
+sudo wireshark
+sudo etherape
+cd projects/
+ls
+chmod 600 qwikLABS-L2518-20878842.pem 
+clea
+c
+ssh -i qwikLABS-L2518-20878842.pem student-01-334be4f500c9@35.238.37.215
+exit
+exit
+ranger
+ipy
+c
+scp student-00-4fe13ed2a774@34.72.156.253:/projects/corpweb.zip ~/Desktop/
+cd projects/temp; #scp -i qw student-00-4fe13ed2a774@34.72.156.253:/projects/corpweb.zip ~/Desktop/
+scp student-00-4fe13ed2a774@34.72.156.253:/projects/corpweb.zip ~/Desktop/
+sudo scp -i qwikLABS-L2516-20876302.pem student-00-4fe13ed2a774@34.72.156.253:/projects/corpweb.zip ~/Desktop/
+cd ~/Downloads/
+ls
+desk
+clear
+cd ~/.bash_a
+#cd ~/.bash_al
+nano ~/.bash_aliases 
+clear
+source ~/.bashrc
+clear
+desk
+ls
+unzip corpweb.zip 
+cd 
+ks
+la
+find main.cf
+find -r main.cf
+c
+conda install -c conda-forge plotly
+c;conup
+c
+e
+ipy
+clear
+conda install -c conda-forge hjson
+c
+#weak reference was used for the file
+c
+ipy
+exit
+cd Do
+cd Downloads/
+down
+clear
+nano ~/.bash_aliases 
+source ~/.bash_aliases 
+clear
+down
+cd ~/projects/temp/
+ls
+chmod 600 qwikLABS-L2516-20876302.pem 
+clear
+ssh -i qwikLABS-L2516-20876302.pem student-00-4fe13ed2a774@@
+ssh -i qwikLABS-L2516-20876302.pem student-00-4fe13ed2a774@34.72.156.253
+ipy
+clear
+;s
+ls
+rm qwikLABS-L2516-20876302.pem 
+clear
+postfix
+sendmail
+clear
+postfix
+sudo apt install postfix
+clear
+systemctl list
+systemctl
+clear
+ipy
+clear
+conda install -c conda-forge reportlab
+clear
+conda list
+c
+e
+cd Desktop/
+ls
+chmod 600 qwikLABS-L2518-20879764.pem 
+clear
+ssh -i qwikLABS-L2518-20879764.pem student-01-38702a2bae28@34.71.72.50
+down
+rm qwikLABS-L2402-20828756.pem 
+ls
+desk
+ls
+cd pro
+cd ~/projects/
+ls
+rm qwikLABS-L2518-20878842.pem 
+clear
+ls
+clear
+ls
+c
+ps ax | grep elem
+ps ax | grep element
+kill 18733
+kill 18738
+kill 18739
+kill 18741
+kill 18742
+kill 18782
+clear
+ps ax | grep element
+clear
+exit
+bp
+up
+c
+up
+c
+e
+fast
+e
+cd Downloads/
+c
+ls
+chmod 600 qwikLABS-L2518-20957290.pem 
+clear
+ls
+ssh -i qwikLABS-L2518-20957290.pem student-03-33320a3a3175@104.154.138.128
+exit
+fast
+exit
+up
+c
+e
+# I'm sure; It's about me
+c
+e
+# I'm glad we can help
+# No but why would you want to 
+c
+e
+nano ~/.xbindkeysrc 
+clear
+killall xbindkeys 
+clear
+xbindkeys
+clear
+xev
+nano ~/.xbindkeysrc 
+killall xbindkeys
+clear
+xbindkeys
+#nano ~/
+c
+e
+xev
+c
+e
+ping 192.168.1.209
+e
+c
+p
+c
+f
+a
+c
+e
+c
+e
+# I have no idea if it's henry chase
+c
+e
+# I don't know
+c
+e
+# It's not righ.t
+# People great mystery
+c
+e
+#historical
+c
+e
+c
+e
+l
+tree
+c
+e
+up
+c
+e
+up
+c
+e
+up
+c
+e
+c
+e
+acc
+c
+e
+cpucores
+cd apps/scripts/
+ls
+core
+cores.sh 
+clear
+ls
+cd ..
+ls
+c
+e
+## more and more layers. 
+# please add some deep learning pats
+c
+e
+#$ ref | replace
+# you need to come with me
+# I'm asking you to trust me
+c
+e
+# erica nearly drowned
+c
+e
+# simon and henry
+c
+e
+# he deserves to know
+c
+e
+# hope, faith
+# here we go
+c
+e
+c
+e
+# problem
+c
+ping 192.168.0.1
+ping localhost
+# simon i think you shoudl go
+c
+e
+init
+init --h
+init 6
+up
+c
+clear
+ls
+la
+c
+clear
+ls
+clear
+ls
+la
+cl
+c
+e
+ipy
+e'
+e
+# not singing any nda# start accepting 
+c
+e
+# I would love that
+# Facebook message
+c
+e
+# helping people 
+c
+e
+# somehting bigger
+c
+down 
+c
+l
+tar -xvf gtypist-2.9.tar.xz 
+clear
+la
+cd gtypist-2.9/
+la
+cat README 
+c
+cat INSTALL
+./configure
+make
+make install
+sudo make install
+clear
+gtypist 
+clear
+ls
+clear
+cd ..
+ls
+cpv gtypist-2.9.tar.xz ~/apps/
+clear
+e
+gtypist 
+# it was worth it.
+# Never leaving him again
+c
+e
+# we already tried everything. 
+# hello
+# hi bruno
+c
+e
+bp
+# i'd love nothing more 
+# there will be sacrifices.
+c
+e
+init 0
+up
+c
+e
+gtypist
+c
+ec
+e
+gtypist 
+c
+e
+cd projects/pgp/
+clear
+la
+c
+jupyter lab
+c;e
+cc
+c
+e
+#Nonymous how the hell do you even jknow theset thigns C
+c;e
+gtypist 
+c
+e
+darpa
+c
+c;e
+ping
+ping google.com
+e
+# I wont lose you too
+c;e
+# worst day of my life
+c;e
+ssh -i http://
+ssh -i 45.79.146.52
+ssh 45.79.146.52
+telnet 45.79.146.52
+sudo telnet 45.79.146.52
+ssh admin@45.79.146.52
+c
+e\
+e
+ping hell.org
+traceroute6 hell.org
+traceroute6 https://hell.org
+nslookup
+fast
+c;e
+onioncircuits 
+c
+which onioncircuits 
+cd /usr/bin/
+ls
+la
+c
+l
+c
+e
+tracker
+tracker -help
+man tracker
+c
+e
+tracepath google.com
+c\
+c
+ping localhost
+ping localhost:e
+The exact street address
+A phone nue
+The exact street address
+A phone nue
+The exact street address
+A phone nue
+The exact street address
+A phone nue
+The exact street address
+A phone nue
+The exact street address
+A phone nue
+The exact street address
+A phone nue
+The exact street address
+A phone nue
+The exact street address
+A phone nu
+c;e
+init 0
+up
+c;e
+cd /
+ls
+la
+cd up
+up
+c
+nano ~/.bash_
+c
+e
+e

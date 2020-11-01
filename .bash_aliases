@@ -29,12 +29,18 @@ alias clean='sudo apt autoremove && sudo apt clean && sudo apt autoclean'
 alias conup='conda update --all;conda clean --all'
 alias ipy='ipython'
 alias bp='bpython'
-
+alias py='python'
+alias py3='python3'
 #alias whou='who | cut -d' ' -f1 | sort | uniq'
+alias netport='sudo netstat -nlp'
 
-# pop
+# pop-dirs
 alias data='cd /media/kumar/data'
+alias cert='cd /media/kumar/data/repos/Certificates/'
+alias down='cd /home/kumar/Downloads'
+alias desk='cd /home/kumar/Desktop'
 
+alias atom='atom-beta'
 # Git
 alias g='git'
 alias gst='git status'
