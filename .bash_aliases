@@ -1,4 +1,3 @@
-
 # Aliases
 
 alias ls='ls -F'
@@ -22,9 +21,15 @@ alias cpv='rsync -ah --info=progress2'
 alias throw='mv --force -t ~/.local/share/Trash'
 
 #alias whou='who | cut -d' ' -f1 | sort | uniq'
-
+alias c='clear'
+alias e='exit'
+alias u='users'
+alias ipy='ipython'
+alias py='python'
+alias py3='python3'
 # Git
 alias g='git'
+alias gclone='git clone'
 alias gst='git status'
 alias dst='dvc status'
 alias gd='git diff'
@@ -151,8 +156,18 @@ function work_in_progress() {
 function open_jupyter_chromium() {
   jupyter notebook list | grep http://localhost:8888/?token=[a-z0-9]* > serv.txt
   chromium $(<serv.txt)
+  rm serv.txt
 }
 alias jup='open_jupyter_chromium'
 alias jlist='jupyter notebook list'
 alias conup='conda activate temp;conda update --all;conda clean --all;'
 alias jupa='conda activate temp;cd ~/ana;jupyter notebook;'
+alias jupcolab="jupyter notebook --NotebookApp.allow_origin='https://colab.research.google.com'  --port=8877  --NotebookApp.port_retries=0"
+alias jlab='conda activate temp;jupyter lab'
+
+# sara
+alias m='make install;source ~/.bashrc;conda activate sara'
+alias ms='make install;source ~/.bashrc;conda activate sara;c;python sara.py'
+alias s='conda activate sara;c;python sara.py'
+alias prof='m; c; kernprof -lv sara.py'
+alias pyins='m; c; python -m pyinstrument --timeline sara.py'
