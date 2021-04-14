@@ -1,8 +1,6 @@
 
 # Aliases
-alias e='exit'
-alias c='clear'
-alias b='bash'
+
 alias ls='ls -F'
 alias ll='ls -lh'
 alias la='ls -arlt'
@@ -20,34 +18,25 @@ alias count='find . -type f | wc -l'
 alias ve='python3 -m venv ./venv'
 alias va='source ./venv/bin/activate'
 
-alias cpv='rsync -ahv --info=progress2'
+alias cpv='rsync -ah --info=progress2'
 alias throw='mv --force -t ~/.local/share/Trash'
 
-alias update='sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get dist-upgrade'
-alias clean='sudo apt autoremove && sudo apt clean && sudo apt autoclean'
-
-alias conup='conda update --all;conda clean --all'
+#alias whou='who | cut -d' ' -f1 | sort | uniq'
+alias c='clear'
+alias e='exit'
+alias u='users'
 alias ipy='ipython'
-alias bp='bpython'
 alias py='python'
 alias py3='python3'
-#alias whou='who | cut -d' ' -f1 | sort | uniq'
-alias netport='sudo netstat -nlp'
-
-# pop-dirs
-alias data='cd /media/kumar/data'
-alias cert='cd /media/kumar/data/repos/Certificates/'
-alias down='cd /home/kumar/Downloads'
-alias desk='cd /home/kumar/Desktop'
-
-alias atom='atom-beta'
 # Git
 alias g='git'
+alias gclone='git clone'
 alias gst='git status'
 alias dst='dvc status'
 alias gd='git diff'
 alias gdc='git diff --cached'
 alias gl='git pull'
+alias dl='dvc pull'
 alias gup='git pull --rebase'
 alias gp='git push'
 alias dp='dvc push'
@@ -86,6 +75,10 @@ alias grh='git reset HEAD'
 alias grhh='git reset HEAD --hard'
 alias gclean='git reset --hard && git clean -dfx'
 alias gwc='git whatchanged -p --abbrev-commit --pretty=medium'
+alias gcom='git log --format=%B -n 1 $(git log -1 --pretty=format:"%h") | cat -'
+
+# submodule
+alias gsub='git rev-parse HEAD; gcom; git submodule foreach  --recursive "git rev-parse --short HEAD; git rev-parse HEAD;"'
 
 # remove the gf alias
 #alias gf='git ls-files | grep'
@@ -168,9 +161,24 @@ function work_in_progress() {
 function open_jupyter_chromium() {
   jupyter notebook list | grep http://localhost:8888/?token=[a-z0-9]* > serv.txt
   chromium $(<serv.txt)
+  rm serv.txt
 }
-#alias jup='open_jupyter_chromium'
-alias jup='jupyter notebook'
+alias jup='open_jupyter_chromium'
 alias jlist='jupyter notebook list'
+alias conup='conda activate temp;conda update --all;conda clean --all;'
+alias jupa='conda activate temp;cd ~/ana;jupyter notebook;'
+alias jupcolab="jupyter notebook --NotebookApp.allow_origin='https://colab.research.google.com'  --port=8877  --NotebookApp.port_retries=0"
+alias jlab='conda activate temp;jupyter lab'
 
-alias up='update;clean;conup'
+# sara
+alias ms='source ~/.bashrc;conda activate sara;c;python sara.py'
+alias s='conda activate sara;c;python sara.py'
+alias prof='m; c; kernprof -lv sara.py'
+alias pyins='m; c; python -m pyinstrument --timeline sara.py'
+
+
+# permissions
+alias chdrwx='find . -type d -exec chmod a+rwx {} \;'
+# Make folders traversable and read/write
+alias chfrw='find . -type f -exec chmod a+rw {} \;'
+# Make files read/write
