@@ -74,6 +74,10 @@ alias grh='git reset HEAD'
 alias grhh='git reset HEAD --hard'
 alias gclean='git reset --hard && git clean -dfx'
 alias gwc='git whatchanged -p --abbrev-commit --pretty=medium'
+alias gcom='git log --format=%B -n 1 $(git log -1 --pretty=format:"%h") | cat -'
+
+# submodule
+alias gsub='git rev-parse HEAD; gcom; git submodule foreach  --recursive "git rev-parse --short HEAD; git rev-parse HEAD;"'
 
 # remove the gf alias
 #alias gf='git ls-files | grep'
@@ -166,8 +170,38 @@ alias jupcolab="jupyter notebook --NotebookApp.allow_origin='https://colab.resea
 alias jlab='conda activate temp;jupyter lab'
 
 # sara
-alias m='make install;source ~/.bashrc;conda activate sara'
-alias ms='make install;source ~/.bashrc;conda activate sara;c;python sara.py'
-alias s='conda activate sara;c;python sara.py'
+alias m='make set_path; source ~/.bashrc; conda activate back'
+alias ms='m; python sara.py'
+alias s='conda activate back;c;python sara.py'
 alias prof='m; c; kernprof -lv sara.py'
 alias pyins='m; c; python -m pyinstrument --timeline sara.py'
+
+
+# permissions
+alias chdrwx='find . -type d -exec chmod a+rwx {} \;'
+# Make folders traversable and read/write
+alias chfrw='find . -type f -exec chmod a+rw {} \;'
+# Make files read/write
+
+
+# Pytest
+alias testmod='python -m pytest -vxs -nauto'
+
+# ssh
+alias iron='ssh ironman'
+alias beast='ssh 172.16.0.7'
+
+# redis
+alias redis='cd ~;rm dump.rdb; redis-server'
+
+# tox
+alias stress='c; for i in {1..14}; do tox; done;'
+
+# gunicorn 
+alias guni='gunicorn app:app -c gunicorn.config.py'
+
+# kill process with port
+alias kill5k='fuser -k 5000/tcp'
+
+# find duplicate files
+alias findups='find . ! -empty -type f -exec md5sum {} + | sort | uniq -w32 -dD'
