@@ -14,6 +14,7 @@ alias ana='anaconda-navigator'
 
 alias left='ls -t -1'
 
+alias ip='hostname -i'
 alias count='find . -type f | wc -l'
 
 alias ve='python3 -m venv ./venv'
@@ -33,7 +34,6 @@ alias py3='python3'
 alias g='git'
 alias gclone='git clone'
 alias gst='git status'
-alias gf='git fetch --all'
 # overwrite ghostscript with gst
 alias gs='gst'
 alias dst='dvc status'
@@ -45,6 +45,8 @@ alias gup='git pull --rebase'
 alias gp='git push'
 alias dp='dvc push'
 alias gd='git diff'
+alias gf='git fetch --all'
+alias gfl='git fetch --all && git pull'
 alias gc='git commit -v'
 alias gc!='git commit -v --amend'
 alias gca='git commit -v -a'
@@ -209,7 +211,7 @@ alias ner='c; python test_final.py'
 alias testmod='python -m pytest -vxs -nauto'
 
 # ssh
-alias iron='ssh ironman'
+alias iron='ssh suryapk@ironman' # abc123
 alias beast='ssh 172.16.0.242'
 
 # redis
