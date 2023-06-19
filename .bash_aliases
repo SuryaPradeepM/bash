@@ -1,4 +1,3 @@
-
 # Aliases
 
 alias ls='ls -F'
@@ -7,12 +6,15 @@ alias la='ls -arlt'
 
 alias lt='ls --human-readable --size -1 -S --classify'
 
+alias cat='cat -n'
+
 alias mnt="mount | awk -F' ' '{ printf \"%s\t%s\n\",\$1,\$3; }' | column -t | egrep ^/dev/ | sort"
 alias gh='history|grep'
 alias ana='anaconda-navigator'
 
 alias left='ls -t -1'
 
+alias ip='hostname -i'
 alias count='find . -type f | wc -l'
 
 alias ve='python3 -m venv ./venv'
@@ -32,6 +34,8 @@ alias py3='python3'
 alias g='git'
 alias gclone='git clone'
 alias gst='git status'
+# overwrite ghostscript with gst
+alias gs='gst'
 alias dst='dvc status'
 alias gd='git diff'
 alias gdc='git diff --cached'
@@ -41,6 +45,8 @@ alias gup='git pull --rebase'
 alias gp='git push'
 alias dp='dvc push'
 alias gd='git diff'
+alias gf='git fetch --all'
+alias gfl='git fetch --all && git pull'
 alias gc='git commit -v'
 alias gc!='git commit -v --amend'
 alias gca='git commit -v -a'
@@ -166,19 +172,63 @@ function open_jupyter_chromium() {
 alias jup='open_jupyter_chromium'
 alias jlist='jupyter notebook list'
 alias conup='conda activate temp;conda update --all;conda clean --all;'
-alias jupa='conda activate temp;cd ~/ana;jupyter notebook;'
 alias jupcolab="jupyter notebook --NotebookApp.allow_origin='https://colab.research.google.com'  --port=8877  --NotebookApp.port_retries=0"
-alias jlab='conda activate temp;jupyter lab'
+alias jlab='conda activate jupyter;jupyter lab'
+
+# conda envs
+alias cond='conda activate dev'
+alias cond7='conda activate dev37'
+alias de='conda deactivate'
+
+# conda installs
+alias con='conda install -c'
+alias cona='conda install -c anaconda'
+alias conf='conda install -c conda-forge'
 
 # sara
-alias ms='source ~/.bashrc;conda activate sara;c;python sara.py'
-alias s='conda activate sara;c;python sara.py'
+alias ids='make smids'
+alias m='make set_path; source ~/.bashrc; conda activate dev'
+alias m7='make set_path; source ~/.bashrc; conda activate dev37'
+alias ms='m; python sara.py'
+alias m7s='m7; python sara.py'
+alias s='kp; cond; c; python sara.py'
+alias s7='kp; conda activate dev37; c; python sara.py'
 alias prof='m; c; kernprof -lv sara.py'
-alias pyins='m; c; python -m pyinstrument --timeline sara.py'
+alias pyins='m7; c; python -m pyinstrument --timeline sara.py -r html'
+alias prof7='m7; c; kernprof -lv sara.py'
+alias pyins7='m7; c; python -m pyinstrument --timeline sara.py -r html'
 
+alias ner='c; python test_final.py'
 
 # permissions
-alias chdrwx='find . -type d -exec chmod a+rwx {} \;'
+# alias chdrwx='find . -type d -exec chmod a+rwx {} \;'
 # Make folders traversable and read/write
-alias chfrw='find . -type f -exec chmod a+rw {} \;'
+# alias chfrw='find . -type f -exec chmod a+rw {} \;'
 # Make files read/write
+
+# Pytest
+alias testmod='python -m pytest -vxs -nauto'
+
+# ssh
+alias iron='ssh suryapk@ironman' # abc123
+alias beast='ssh 172.16.0.242'
+alias val='ssh surya@172.16.0.236' # sur@#789
+
+# redis
+alias redis='cd ~;rm dump.rdb; redis-server'
+
+# tox
+alias stress='c; for i in {1..14}; do tox; done;'
+
+# gunicorn 
+alias guni='gunicorn app:app -c gunicorn.config.py'
+
+# kill process with port
+alias kill5k='fuser -k 5000/tcp'
+alias kp='killall kited; killall TabNine; killall TabNine-deep-local'
+
+# find duplicate files
+alias findups='find . ! -empty -type f -exec md5sum {} + | sort | uniq -w32 -dD'
+
+# open file explorer
+alias nau='nautilus'
